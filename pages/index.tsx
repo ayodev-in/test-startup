@@ -85,8 +85,7 @@ const Home: NextPage = () => {
         minutes={minutes}
         seconds={seconds}
       />
-      <TimerInput value={newTime} handleClick={handleClick} handleChange={handleChange} />
-
+      
       <Footer />
     </div>
   )
